@@ -1,24 +1,25 @@
 {
-  "name": "git-test",
+  "name": "confusion",
   "version": "1.0.0",
-  "description": "Test Directory to learn node",
+  "description": "This is a website for Ristorante Con Fusion",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
-    "test" : "echo \"Error: no test specified\" && exit 1",
-    "lite" :"lite-server "
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nandakumar1999/git-test.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "Nandakumar",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nandakumar1999/git-test/issues"
-  },
-  "homepage": "https://github.com/nandakumar1999/git-test#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }
